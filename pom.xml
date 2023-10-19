@@ -30,17 +30,6 @@
             <version>7.13.0</version>
         </dependency>
 
-
-
-
-        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
-        <dependency>
-            <groupId>io.cucumber</groupId>
-            <artifactId>cucumber-junit</artifactId>
-            <version>7.13.0</version>
-            <scope>test</scope>
-        </dependency>
-
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -66,6 +55,21 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.13.2</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-junit</artifactId>
+            <version>7.14.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-junit</artifactId>
+            <version>7.14.0</version>
             <scope>compile</scope>
         </dependency>
 

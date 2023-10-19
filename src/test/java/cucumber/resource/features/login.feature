@@ -1,5 +1,6 @@
 Feature: Login to SauceDemo
 
+  @Regression @Positive
   Scenario: Login with valid credentials
     Given User on the SauceDemo login page
     When User enter username
@@ -7,6 +8,7 @@ Feature: Login to SauceDemo
     And User click the "Login" button
     Then User should be logged in successfully
 
+  @Regression @Negative
   Scenario: Login with invalid credentials
     Given User on the SauceDemo login page
     When User enter username
