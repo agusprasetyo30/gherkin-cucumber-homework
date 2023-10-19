@@ -3,7 +3,7 @@
 9 September 2023 - 22 Oktober 2023
 
 ## Link Video
-<a href="https://intip.in/demoAutomationTestingAgus"><b>Video Demo Automation Testing</b></a>
+<a href="https://intip.in/demoAutomationTestingAgus" target="_blank"><b>Video Demo Automation Testing</b></a>
 
 ## Screenshot Report Automation
 1. Valid Login to SauceDemo
