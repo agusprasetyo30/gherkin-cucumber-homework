@@ -16,7 +16,6 @@ public class Login {
     WebDriver driver;
     String base_url = "https://www.saucedemo.com";
 
-
     @Given("User on the SauceDemo login page")
     public void userOnTheSauceDemoLoginPage() {
         WebDriverManager.chromedriver().setup();
@@ -51,7 +50,6 @@ public class Login {
         String header_title = driver.findElement(By.xpath("//*[@id='header_container']/div[1]/div[2]/div")).getText();
         Assert.assertEquals(header_title, "Swag Labs");
         driver.close();
-
     }
 
     @And("User enter invalid password")

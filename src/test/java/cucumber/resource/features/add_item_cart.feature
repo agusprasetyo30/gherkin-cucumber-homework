@@ -1,5 +1,6 @@
 Feature: Shopping Cart on SauceDemo
 
+  @Regression @Positive
   Scenario: Add an item to the shopping cart
     Given user logged in to SauceDemo
     When user browse the product catalog
