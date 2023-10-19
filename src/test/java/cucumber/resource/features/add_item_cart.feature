@@ -1,4 +1,4 @@
-Feature: Shopping Cart on SauceDemo
+Feature: Add Item in Shopping Cart on SauceDemo
 
   @Regression @Positive
   Scenario: Add an item to the shopping cart

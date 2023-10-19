@@ -14,7 +14,6 @@ import java.util.concurrent.TimeUnit;
 
 public class Login {
     WebDriver driver;
-    String base_url = "https://www.saucedemo.com";
 
     @Given("User on the SauceDemo login page")
     public void userOnTheSauceDemoLoginPage() {
@@ -23,7 +22,7 @@ public class Login {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-        driver.get(base_url);
+        driver.get(VariableRequirement.BASE_URL);
 
         // Assertion
         String loginPageAssert = driver.findElement(By.xpath("//*[@id='root']/div/div[1]")).getText();
